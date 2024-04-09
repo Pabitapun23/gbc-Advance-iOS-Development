@@ -8,21 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		50EB87592BA0AEB900BC48B6 /* Pabita_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87582BA0AEB900BC48B6 /* Pabita_FinalApp.swift */; };
-		50EB875B2BA0AEB900BC48B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB875A2BA0AEB900BC48B6 /* ContentView.swift */; };
 		50EB875D2BA0AEBB00BC48B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB875C2BA0AEBB00BC48B6 /* Assets.xcassets */; };
 		50EB87602BA0AEBB00BC48B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB875F2BA0AEBB00BC48B6 /* Preview Assets.xcassets */; };
 		50EB87622BA0AEBB00BC48B6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87612BA0AEBB00BC48B6 /* Persistence.swift */; };
-		50EB87652BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87632BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodeld */; };
+		50EB876D2BA0B5B200BC48B6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB876C2BA0B5B200BC48B6 /* Restaurant.swift */; };
+		50EB87702BA0B5DF00BC48B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB876F2BA0B5DF00BC48B6 /* HomeView.swift */; };
+		50EB87722BA0B60500BC48B6 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87712BA0B60500BC48B6 /* RestaurantDetailsView.swift */; };
+		50EB87782BA0BE5B00BC48B6 /* RestaurantMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87772BA0BE5B00BC48B6 /* RestaurantMO.swift */; };
+		50EB87802BA0CB9300BC48B6 /* CoreDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB877F2BA0CB9300BC48B6 /* CoreDBHelper.swift */; };
+		50EB87832BA0CBF900BC48B6 /* RestaurantModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87812BA0CBF900BC48B6 /* RestaurantModel.xcdatamodeld */; };
+		50EB87852BA0E80900BC48B6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87842BA0E80900BC48B6 /* MapView.swift */; };
+		50EB87872BA0E9AD00BC48B6 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB87862BA0E9AD00BC48B6 /* LocationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50EB87552BA0AEB900BC48B6 /* Pabita_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pabita_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EB87582BA0AEB900BC48B6 /* Pabita_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pabita_FinalApp.swift; sourceTree = "<group>"; };
-		50EB875A2BA0AEB900BC48B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50EB875C2BA0AEBB00BC48B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EB875F2BA0AEBB00BC48B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50EB87612BA0AEBB00BC48B6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		50EB87642BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pabita_Final.xcdatamodel; sourceTree = "<group>"; };
+		50EB876C2BA0B5B200BC48B6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		50EB876F2BA0B5DF00BC48B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50EB87712BA0B60500BC48B6 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		50EB87772BA0BE5B00BC48B6 /* RestaurantMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMO.swift; sourceTree = "<group>"; };
+		50EB877F2BA0CB9300BC48B6 /* CoreDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBHelper.swift; sourceTree = "<group>"; };
+		50EB87822BA0CBF900BC48B6 /* RestaurantModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestaurantModel.xcdatamodel; sourceTree = "<group>"; };
+		50EB87842BA0E80900BC48B6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		50EB87862BA0E9AD00BC48B6 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +67,13 @@
 		50EB87572BA0AEB900BC48B6 /* Pabita_Final */ = {
 			isa = PBXGroup;
 			children = (
+				50EB877C2BA0C3E400BC48B6 /* Controllers */,
+				50EB876E2BA0B5BC00BC48B6 /* Views */,
+				50EB876B2BA0B5A000BC48B6 /* Models */,
 				50EB87582BA0AEB900BC48B6 /* Pabita_FinalApp.swift */,
-				50EB875A2BA0AEB900BC48B6 /* ContentView.swift */,
 				50EB875C2BA0AEBB00BC48B6 /* Assets.xcassets */,
-				50EB87612BA0AEBB00BC48B6 /* Persistence.swift */,
-				50EB87632BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodeld */,
 				50EB875E2BA0AEBB00BC48B6 /* Preview Content */,
+				50EB87812BA0CBF900BC48B6 /* RestaurantModel.xcdatamodeld */,
 			);
 			path = Pabita_Final;
 			sourceTree = "<group>";
@@ -71,6 +84,35 @@
 				50EB875F2BA0AEBB00BC48B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50EB876B2BA0B5A000BC48B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50EB876C2BA0B5B200BC48B6 /* Restaurant.swift */,
+				50EB87772BA0BE5B00BC48B6 /* RestaurantMO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50EB876E2BA0B5BC00BC48B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50EB876F2BA0B5DF00BC48B6 /* HomeView.swift */,
+				50EB87712BA0B60500BC48B6 /* RestaurantDetailsView.swift */,
+				50EB87842BA0E80900BC48B6 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50EB877C2BA0C3E400BC48B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50EB87612BA0AEBB00BC48B6 /* Persistence.swift */,
+				50EB877F2BA0CB9300BC48B6 /* CoreDBHelper.swift */,
+				50EB87862BA0E9AD00BC48B6 /* LocationHelper.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50EB876D2BA0B5B200BC48B6 /* Restaurant.swift in Sources */,
 				50EB87622BA0AEBB00BC48B6 /* Persistence.swift in Sources */,
-				50EB875B2BA0AEB900BC48B6 /* ContentView.swift in Sources */,
+				50EB87832BA0CBF900BC48B6 /* RestaurantModel.xcdatamodeld in Sources */,
+				50EB87722BA0B60500BC48B6 /* RestaurantDetailsView.swift in Sources */,
+				50EB87872BA0E9AD00BC48B6 /* LocationHelper.swift in Sources */,
+				50EB87782BA0BE5B00BC48B6 /* RestaurantMO.swift in Sources */,
+				50EB87802BA0CB9300BC48B6 /* CoreDBHelper.swift in Sources */,
+				50EB87702BA0B5DF00BC48B6 /* HomeView.swift in Sources */,
+				50EB87852BA0E80900BC48B6 /* MapView.swift in Sources */,
 				50EB87592BA0AEB900BC48B6 /* Pabita_FinalApp.swift in Sources */,
-				50EB87652BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,13 +402,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		50EB87632BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodeld */ = {
+		50EB87812BA0CBF900BC48B6 /* RestaurantModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				50EB87642BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodel */,
+				50EB87822BA0CBF900BC48B6 /* RestaurantModel.xcdatamodel */,
 			);
-			currentVersion = 50EB87642BA0AEBB00BC48B6 /* Pabita_Final.xcdatamodel */;
-			path = Pabita_Final.xcdatamodeld;
+			currentVersion = 50EB87822BA0CBF900BC48B6 /* RestaurantModel.xcdatamodel */;
+			path = RestaurantModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
