@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3785D3872B9A5C2900DD976C /* BoredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3862B9A5C2900DD976C /* BoredApp.swift */; };
+		3785D3892B9A5C2900DD976C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3882B9A5C2900DD976C /* ContentView.swift */; };
+		3785D38B2B9A5C2B00DD976C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3785D38A2B9A5C2B00DD976C /* Assets.xcassets */; };
+		3785D38E2B9A5C2B00DD976C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3785D38D2B9A5C2B00DD976C /* Preview Assets.xcassets */; };
+		3785D3952B9A5C8500DD976C /* ActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3942B9A5C8500DD976C /* ActivityHelper.swift */; };
+		3785D3972B9A5CA500DD976C /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3962B9A5CA500DD976C /* Activity.swift */; };
+		50EB86932B9AAA9600BC48B6 /* boredWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB86922B9AAA9600BC48B6 /* boredWatchApp.swift */; };
+		50EB86972B9AAA9700BC48B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB86962B9AAA9700BC48B6 /* Assets.xcassets */; };
+		50EB869A2B9AAA9700BC48B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB86992B9AAA9700BC48B6 /* Preview Assets.xcassets */; };
+		50EB86A42B9AAA9700BC48B6 /* boredWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB86A32B9AAA9700BC48B6 /* boredWatch_Watch_AppTests.swift */; };
+		50EB86AE2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB86AD2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITests.swift */; };
+		50EB86B02B9AAA9700BC48B6 /* boredWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB86AF2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITestsLaunchTests.swift */; };
+		50EB86B32B9AAA9700BC48B6 /* boredWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 50EB86902B9AAA9600BC48B6 /* boredWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50EB86BE2B9AAC3100BC48B6 /* ActivityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3942B9A5C8500DD976C /* ActivityHelper.swift */; };
+		50EB86BF2B9AACCC00BC48B6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3962B9A5CA500DD976C /* Activity.swift */; };
+		50EB86C22B9AB00400BC48B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785D3882B9A5C2900DD976C /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50EB86A02B9AAA9700BC48B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3785D37B2B9A5C2900DD976C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EB868F2B9AAA9600BC48B6;
+			remoteInfo = "boredWatch Watch App";
+		};
+		50EB86AA2B9AAA9700BC48B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3785D37B2B9A5C2900DD976C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EB868F2B9AAA9600BC48B6;
+			remoteInfo = "boredWatch Watch App";
+		};
+		50EB86B12B9AAA9700BC48B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3785D37B2B9A5C2900DD976C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EB868F2B9AAA9600BC48B6;
+			remoteInfo = "boredWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50EB86B42B9AAA9800BC48B6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				50EB86B32B9AAA9700BC48B6 /* boredWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3785D3832B9A5C2900DD976C /* Bored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bored.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3785D3862B9A5C2900DD976C /* BoredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredApp.swift; sourceTree = "<group>"; };
+		3785D3882B9A5C2900DD976C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3785D38A2B9A5C2B00DD976C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3785D38D2B9A5C2B00DD976C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3785D3942B9A5C8500DD976C /* ActivityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHelper.swift; sourceTree = "<group>"; };
+		3785D3962B9A5CA500DD976C /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		50EB86902B9AAA9600BC48B6 /* boredWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "boredWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB86922B9AAA9600BC48B6 /* boredWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boredWatchApp.swift; sourceTree = "<group>"; };
+		50EB86962B9AAA9700BC48B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EB86992B9AAA9700BC48B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50EB869F2B9AAA9700BC48B6 /* boredWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "boredWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB86A32B9AAA9700BC48B6 /* boredWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boredWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		50EB86A92B9AAA9700BC48B6 /* boredWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "boredWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB86AD2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boredWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		50EB86AF2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boredWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3785D3802B9A5C2900DD976C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB868D2B9AAA9600BC48B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB869C2B9AAA9700BC48B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB86A62B9AAA9700BC48B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3785D37A2B9A5C2900DD976C = {
+			isa = PBXGroup;
+			children = (
+				3785D3852B9A5C2900DD976C /* Bored */,
+				50EB86912B9AAA9600BC48B6 /* boredWatch Watch App */,
+				50EB86A22B9AAA9700BC48B6 /* boredWatch Watch AppTests */,
+				50EB86AC2B9AAA9700BC48B6 /* boredWatch Watch AppUITests */,
+				3785D3842B9A5C2900DD976C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3785D3842B9A5C2900DD976C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3785D3832B9A5C2900DD976C /* Bored.app */,
+				50EB86902B9AAA9600BC48B6 /* boredWatch Watch App.app */,
+				50EB869F2B9AAA9700BC48B6 /* boredWatch Watch AppTests.xctest */,
+				50EB86A92B9AAA9700BC48B6 /* boredWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3785D3852B9A5C2900DD976C /* Bored */ = {
+			isa = PBXGroup;
+			children = (
+				3785D39A2B9A5CC100DD976C /* Views */,
+				3785D3992B9A5CB600DD976C /* Controllers */,
+				3785D3982B9A5CAC00DD976C /* Models */,
+				3785D3862B9A5C2900DD976C /* BoredApp.swift */,
+				3785D38A2B9A5C2B00DD976C /* Assets.xcassets */,
+				3785D38C2B9A5C2B00DD976C /* Preview Content */,
+			);
+			path = Bored;
+			sourceTree = "<group>";
+		};
+		3785D38C2B9A5C2B00DD976C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3785D38D2B9A5C2B00DD976C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3785D3982B9A5CAC00DD976C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3785D3962B9A5CA500DD976C /* Activity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3785D3992B9A5CB600DD976C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3785D3942B9A5C8500DD976C /* ActivityHelper.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3785D39A2B9A5CC100DD976C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3785D3882B9A5C2900DD976C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50EB86912B9AAA9600BC48B6 /* boredWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				50EB86922B9AAA9600BC48B6 /* boredWatchApp.swift */,
+				50EB86962B9AAA9700BC48B6 /* Assets.xcassets */,
+				50EB86982B9AAA9700BC48B6 /* Preview Content */,
+			);
+			path = "boredWatch Watch App";
+			sourceTree = "<group>";
+		};
+		50EB86982B9AAA9700BC48B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50EB86992B9AAA9700BC48B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50EB86A22B9AAA9700BC48B6 /* boredWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EB86A32B9AAA9700BC48B6 /* boredWatch_Watch_AppTests.swift */,
+			);
+			path = "boredWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		50EB86AC2B9AAA9700BC48B6 /* boredWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50EB86AD2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITests.swift */,
+				50EB86AF2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "boredWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3785D3822B9A5C2900DD976C /* Bored */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3785D3912B9A5C2B00DD976C /* Build configuration list for PBXNativeTarget "Bored" */;
+			buildPhases = (
+				3785D37F2B9A5C2900DD976C /* Sources */,
+				3785D3802B9A5C2900DD976C /* Frameworks */,
+				3785D3812B9A5C2900DD976C /* Resources */,
+				50EB86B42B9AAA9800BC48B6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EB86B22B9AAA9700BC48B6 /* PBXTargetDependency */,
+			);
+			name = Bored;
+			productName = Bored;
+			productReference = 3785D3832B9A5C2900DD976C /* Bored.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50EB868F2B9AAA9600BC48B6 /* boredWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB86BB2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch App" */;
+			buildPhases = (
+				50EB868C2B9AAA9600BC48B6 /* Sources */,
+				50EB868D2B9AAA9600BC48B6 /* Frameworks */,
+				50EB868E2B9AAA9600BC48B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "boredWatch Watch App";
+			productName = "boredWatch Watch App";
+			productReference = 50EB86902B9AAA9600BC48B6 /* boredWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50EB869E2B9AAA9700BC48B6 /* boredWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB86BC2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch AppTests" */;
+			buildPhases = (
+				50EB869B2B9AAA9700BC48B6 /* Sources */,
+				50EB869C2B9AAA9700BC48B6 /* Frameworks */,
+				50EB869D2B9AAA9700BC48B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EB86A12B9AAA9700BC48B6 /* PBXTargetDependency */,
+			);
+			name = "boredWatch Watch AppTests";
+			productName = "boredWatch Watch AppTests";
+			productReference = 50EB869F2B9AAA9700BC48B6 /* boredWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EB86A82B9AAA9700BC48B6 /* boredWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EB86BD2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch AppUITests" */;
+			buildPhases = (
+				50EB86A52B9AAA9700BC48B6 /* Sources */,
+				50EB86A62B9AAA9700BC48B6 /* Frameworks */,
+				50EB86A72B9AAA9700BC48B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EB86AB2B9AAA9700BC48B6 /* PBXTargetDependency */,
+			);
+			name = "boredWatch Watch AppUITests";
+			productName = "boredWatch Watch AppUITests";
+			productReference = 50EB86A92B9AAA9700BC48B6 /* boredWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3785D37B2B9A5C2900DD976C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3785D3822B9A5C2900DD976C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					50EB868F2B9AAA9600BC48B6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					50EB869E2B9AAA9700BC48B6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 50EB868F2B9AAA9600BC48B6;
+					};
+					50EB86A82B9AAA9700BC48B6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 50EB868F2B9AAA9600BC48B6;
+					};
+				};
+			};
+			buildConfigurationList = 3785D37E2B9A5C2900DD976C /* Build configuration list for PBXProject "Bored" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3785D37A2B9A5C2900DD976C;
+			productRefGroup = 3785D3842B9A5C2900DD976C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3785D3822B9A5C2900DD976C /* Bored */,
+				50EB868F2B9AAA9600BC48B6 /* boredWatch Watch App */,
+				50EB869E2B9AAA9700BC48B6 /* boredWatch Watch AppTests */,
+				50EB86A82B9AAA9700BC48B6 /* boredWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3785D3812B9A5C2900DD976C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3785D38E2B9A5C2B00DD976C /* Preview Assets.xcassets in Resources */,
+				3785D38B2B9A5C2B00DD976C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB868E2B9AAA9600BC48B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB869A2B9AAA9700BC48B6 /* Preview Assets.xcassets in Resources */,
+				50EB86972B9AAA9700BC48B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB869D2B9AAA9700BC48B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB86A72B9AAA9700BC48B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3785D37F2B9A5C2900DD976C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3785D3892B9A5C2900DD976C /* ContentView.swift in Sources */,
+				3785D3872B9A5C2900DD976C /* BoredApp.swift in Sources */,
+				3785D3972B9A5CA500DD976C /* Activity.swift in Sources */,
+				3785D3952B9A5C8500DD976C /* ActivityHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB868C2B9AAA9600BC48B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB86932B9AAA9600BC48B6 /* boredWatchApp.swift in Sources */,
+				50EB86BF2B9AACCC00BC48B6 /* Activity.swift in Sources */,
+				50EB86C22B9AB00400BC48B6 /* ContentView.swift in Sources */,
+				50EB86BE2B9AAC3100BC48B6 /* ActivityHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB869B2B9AAA9700BC48B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB86A42B9AAA9700BC48B6 /* boredWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EB86A52B9AAA9700BC48B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EB86AE2B9AAA9700BC48B6 /* boredWatch_Watch_AppUITests.swift in Sources */,
+				50EB86B02B9AAA9700BC48B6 /* boredWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EB86A12B9AAA9700BC48B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EB868F2B9AAA9600BC48B6 /* boredWatch Watch App */;
+			targetProxy = 50EB86A02B9AAA9700BC48B6 /* PBXContainerItemProxy */;
+		};
+		50EB86AB2B9AAA9700BC48B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EB868F2B9AAA9600BC48B6 /* boredWatch Watch App */;
+			targetProxy = 50EB86AA2B9AAA9700BC48B6 /* PBXContainerItemProxy */;
+		};
+		50EB86B22B9AAA9700BC48B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EB868F2B9AAA9600BC48B6 /* boredWatch Watch App */;
+			targetProxy = 50EB86B12B9AAA9700BC48B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3785D38F2B9A5C2B00DD976C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3785D3902B9A5C2B00DD976C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3785D3922B9A5C2B00DD976C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bored/Preview Content\"";
+				DEVELOPMENT_TEAM = 79338HDYZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.Bored;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3785D3932B9A5C2B00DD976C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bored/Preview Content\"";
+				DEVELOPMENT_TEAM = 79338HDYZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.Bored;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50EB86B52B9AAA9800BC48B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"boredWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 79338HDYZM;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = boredWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jk.Bored;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.Bored.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		50EB86B62B9AAA9800BC48B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"boredWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 79338HDYZM;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = boredWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jk.Bored;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.Bored.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		50EB86B72B9AAA9800BC48B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.boredWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boredWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/boredWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		50EB86B82B9AAA9800BC48B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.boredWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boredWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/boredWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		50EB86B92B9AAA9800BC48B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.boredWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "boredWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		50EB86BA2B9AAA9800BC48B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827JZHP663;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.boredWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "boredWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3785D37E2B9A5C2900DD976C /* Build configuration list for PBXProject "Bored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3785D38F2B9A5C2B00DD976C /* Debug */,
+				3785D3902B9A5C2B00DD976C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3785D3912B9A5C2B00DD976C /* Build configuration list for PBXNativeTarget "Bored" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3785D3922B9A5C2B00DD976C /* Debug */,
+				3785D3932B9A5C2B00DD976C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EB86BB2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB86B52B9AAA9800BC48B6 /* Debug */,
+				50EB86B62B9AAA9800BC48B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EB86BC2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB86B72B9AAA9800BC48B6 /* Debug */,
+				50EB86B82B9AAA9800BC48B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EB86BD2B9AAA9800BC48B6 /* Build configuration list for PBXNativeTarget "boredWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EB86B92B9AAA9800BC48B6 /* Debug */,
+				50EB86BA2B9AAA9800BC48B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3785D37B2B9A5C2900DD976C /* Project object */;
+}
